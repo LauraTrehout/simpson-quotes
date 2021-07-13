@@ -1,20 +1,22 @@
 .QuoteCard {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 1.25em;
-    width: 70vw;
+    width: 80%;
     border: 1px solid #f8f8f8;
     border-radius: 2px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
     font-size: 1.2em;
+    text-align: justify;
   }
   
   .QuoteCard img {
-    max-width: 100px;
+    min-width: 200px;
     margin-right: 1.5rem;
+    max-height: 300px;
   }
   
   .QuoteCard cite {
     margin-left: 50px;
   }
-  
