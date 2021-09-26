@@ -20,3 +20,11 @@
   .QuoteCard cite {
     margin-left: 50px;
   }
+
+  @media screen and (max-width:550px) {
+    .QuoteCard {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+  }
